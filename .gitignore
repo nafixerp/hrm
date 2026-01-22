@@ -1,0 +1,69 @@
+# HRMS - Git Ignore File
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.buildpath
+
+# Logs
+*.log
+logs/
+error_log
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Uploaded Files (uncomment in production to ignore uploads)
+# assets/uploads/*
+# !assets/uploads/.gitkeep
+
+# Cache Files
+cache/
+*.cache
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Composer (if used)
+vendor/
+composer.lock
+composer.phar
+
+# Node Modules (if used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Database Dumps
+*.sql.gz
+*.sql.zip
+backup/
+
+# Configuration Files (uncomment in production)
+# config/database.php
+# config/config.php
